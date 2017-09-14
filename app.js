@@ -115,6 +115,7 @@ console.log(tab);
 window.setInterval(function () {
     var tabFour = [];
     var tabArrive = [];
+    
     for (var i = 0; i < row; i++) {
         for (var j = 0; j < col; j++) {
             if (tab[i][j] !== 0) {
